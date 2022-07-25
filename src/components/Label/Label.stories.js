@@ -5,7 +5,7 @@ export default {
     component: Label
 }
 
-const Template = args => <label {...args} />;
+const Template = args => <Label {...args} />;
 
 export const Muted = Template.bind({})
 Muted.args = {

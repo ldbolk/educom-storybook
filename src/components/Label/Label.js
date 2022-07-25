@@ -14,7 +14,7 @@ const Label = ({ label, color }) => {
 
 Label.propTypes = {
     label: PropTypes.string,
-    color: PropTypes.oneOf(["black", "mured"])
+    color: PropTypes.oneOf(["black", "muted"])
 }
 
 export default Label;
